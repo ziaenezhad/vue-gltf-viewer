@@ -10,7 +10,9 @@ export default {
 	mounted() {
 		this.viewer = new Viewr(this.$el, {});
 		dat.GUI.toggleHide();
-		this.viewer.load(`http://localhost:8080/models/monster_energy_drink/scene.gltf`);
+		if (this.url) {
+			this.viewer.load(this.url);
+		}
 	},
 	data() {
 		return {

@@ -1,6 +1,6 @@
 {
   "name": "vue-gltf-viewer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sajjad Shirazy <shirazy.sajjad@gmail.com>",
   "license": "MIT",
   "main": "./dist/vue-gltf-viewer.common.js",

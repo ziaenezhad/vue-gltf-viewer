@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 	  <div class="column">
-		  <gltf-viewer></gltf-viewer>
+		  <gltf-viewer url="http://localhost:8080/models/monster_energy_drink/scene.gltf"></gltf-viewer>
 	  </div>		
   </div>
 </template>
