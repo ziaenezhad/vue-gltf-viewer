@@ -1,14 +1,19 @@
 {
   "name": "vue-gltf-viewer",
   "version": "0.1.0",
-  "private": false,
+  "author": "Sajjad Shirazy <shirazy.sajjad@gmail.com>",
+  "license": "MIT",
   "main": "./dist/vue-gltf-viewer.common.js",
+  "repository": "https://github.com/sajjad-shirazy/vue-gltf-viewer",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name vue-gltf-viewer ./src/components/index.js"
   },
   "dependencies": {
+    "dat.gui": "^0.7.5",
+    "gltf-validator": "^2.0.0-dev.2.7",
+    "three": "^0.100.0",
     "vue": "^2.5.21"
   },
   "devDependencies": {
@@ -18,6 +23,17 @@
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.21"
   },
+  "keywords": [
+    "gltf",
+    "three.js",
+    "three",
+    "3d",
+    "model",
+    "modeling",
+    "webgl",
+    "vuejs",
+    "vue"
+  ],
   "files": [
     "dist/*",
     "src/*",

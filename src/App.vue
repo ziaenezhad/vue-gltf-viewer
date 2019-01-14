@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-		<gltf-viewer></gltf-viewer>
+	  <div class="column">
+		  <gltf-viewer></gltf-viewer>
+	  </div>		
   </div>
 </template>
 
@@ -16,4 +18,8 @@ export default {
 </script>
 
 <style lang="scss">
+.column {
+	width: 100%;
+	height: 100vh;
+}
 </style>
