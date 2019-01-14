@@ -2,12 +2,12 @@
     <div></div>
 </template>
 <script>
-const Viewr = require('../../lib/viewer');
-const dat = require('dat.gui');
 
 export default {
 	props: ['url'],
 	mounted() {
+		const Viewr = require('../../lib/viewer');
+		const dat = require('dat.gui');
 		this.viewer = new Viewr(this.$el, {});
 		dat.GUI.toggleHide();
 		if (this.url) {
